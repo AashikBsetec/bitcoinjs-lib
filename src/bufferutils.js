@@ -10,7 +10,7 @@ exports.BufferReader =
     void 0;
 const types = require('./types');
 const { typeforce } = types;
-const varuint = require('varuint-bitcoin');
+const varuint = require('varuint-bitcoin'); 
 exports.varuint = varuint;
 // https://github.com/feross/buffer/blob/master/index.js#L1127
 function verifuint(value, max) {
